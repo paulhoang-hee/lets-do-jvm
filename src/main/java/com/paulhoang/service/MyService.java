@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 @Service
 public class MyService {
 
-  private static final int LOOP_TIMES = 5_000_000;
+  private static final int LOOP_TIMES = 1_000_000;
   private Queue<Long> store;
 
   @PostConstruct

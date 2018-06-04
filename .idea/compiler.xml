@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="lets-do-jvm" target="1.5" />
+      <module name="lets-do-jvm" target="$project-sdk$" />
     </bytecodeTargetLevel>
   </component>
 </project>
